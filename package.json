@@ -1,0 +1,32 @@
+{
+  "name": "green-project-api",
+  "version": "1.0.0",
+  "description": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"創用 CC 授權條款\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" /></a><br />本著作係採用<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">創用 CC 姓名標示-非商業性-相同方式分享 4.0 國際 授權條款</a>授權.",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-uuid": "^1.4.8",
+    "nodemon": "^1.19.4",
+    "pg": "^7.12.1",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancy-xie/green-project-api.git"
+  },
+  "author": "fancy-xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fancy-xie/green-project-api/issues"
+  },
+  "homepage": "https://github.com/fancy-xie/green-project-api#readme"
+}
